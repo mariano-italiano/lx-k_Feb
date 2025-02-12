@@ -54,6 +54,8 @@ apt-get update >/dev/null 2>&1
 echo "[TASK 10] Install K8s in 1.31.4 version"
 apt-get install -y kubeadm=1.31.4-1.1 kubelet=1.31.4-1.1 kubectl=1.31.4-1.1 >/dev/null 2>&1
 
+systemctl unmask kubelet
+
 echo "[TASK 11] Turn off automatic updates"
 apt-mark hold kubelet kubeadm kubectl >/dev/null 2>&1
 
