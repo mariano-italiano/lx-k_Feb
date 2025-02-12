@@ -16,4 +16,4 @@
 
 **Note**:
 
-Zarządzamy klastrem K8s z poziomu TYLKO I WYŁACZNIE Z POZIOMU master node'a. 
+Zarządzamy klastrem K8s z poziomu TYLKO I WYŁACZNIE master node'a lub z jakiejkolwiek maszynyn która ma zainstalowany `kubectl` oraz skopiowany config do ścieżki `.kube/config` normalnego użytkownika.  
