@@ -13,3 +13,7 @@
 1. Przygotowanie wstępne systemu --> ip, hostname, /etc/hosts
 2. Instalacja oraz konfiguracja systemu pod K8s  --> skrypt do momentu init, czyli wył. swapa, moduły, kernel config, containerd etc.
 3. `kubectl join`
+
+**Note**:
+
+Zarządzamy klastrem K8s z poziomu TYLKO I WYŁACZNIE Z POZIOMU master node'a. 
