@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: toleration-pod
+  name: toleration-pod
+spec:
+  tolerations:
+  - key: "kubernetes.io/zone"
+    operator: "Exists"
+    effect: "NoSchedule"
+  containers:
+  - image: nginx
+    name: toleration-pod
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
