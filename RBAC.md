@@ -22,7 +22,7 @@ metadata:
 spec:
   groups:
   - system:authenticated
-  request: LS0tLS1CRUdJTi...
+  request: LS0tLS1CRUdJTi...                             # zamienić z tym co wyświetlił cat wyżej
   signerName: kubernetes.io/kube-apiserver-client
   expirationSeconds: 315569260
   usages:
