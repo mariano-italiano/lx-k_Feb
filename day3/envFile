@@ -1,0 +1,4 @@
+# to jest envFile
+VAR1=5
+VAR2="costam ze spacja"
+VERSION=1.5
