@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    app: pod2
-  name: pod2
+    app: pod1
+  name: pod1
   namespace: test-ns
 spec:
   containers:
